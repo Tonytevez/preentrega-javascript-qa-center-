@@ -1,0 +1,20 @@
+{
+  "name": "info-park-qa",
+  "version": "1.0.0",
+  "description": "QA Test Center - gestion y ejecucion de pruebas automatizadas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:completo": "cypress run"
+  },
+  "keywords": ["qa", "testing", "cypress"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^16.1.0",
+    "cypress-mochawesome-reporter": "^5.0.0"
+  }
+}
